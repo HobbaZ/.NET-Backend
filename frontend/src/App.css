@@ -1,0 +1,46 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.content {
+  width: 450px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  width: 100px;
+}
